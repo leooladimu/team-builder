@@ -31,11 +31,16 @@ body {
   border-radius: 10px;
 }
 
+.form-group label {
+  
+  /* padding: 10px; */
+}
+
 label {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: yellow;
+  color: #03e9f4;
   font-size: 16px;
   text-decoration: none;
   background-color: black;
@@ -47,11 +52,11 @@ label {
 }
 
 input {
-  font-size: 6px;
+  font-size: 20%;
   padding: 10px 10px;
 }
 
-.form-container a:hover {
+/* .form-container a:hover {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
@@ -59,7 +64,7 @@ input {
               0 0 25px #03e9f4,
               0 0 50px #03e9f4,
               0 0 100px #03e9f4;
-}
+} */
 
 h1, h2, h3, h4 {
   color: royalblue;
@@ -77,13 +82,15 @@ label {
   justify-content: space-between;
 }
 input, select, button {
+  color: grey;
   height: 1.5rem;
   width: 150px;
   margin: 8px 8px 8px 0;
+  background-color: black;
 }
 button {
   color: crimson;
-  background-color: white;
+  background-color: black;
   border: 1px solid crimson;
 
   /* &:disabled {
@@ -94,7 +101,7 @@ button {
 }
 .submit {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .error {
   color: red;
